@@ -1,4 +1,4 @@
-package day01;
+package day1_hello_world;
 
 public class Main {
 
