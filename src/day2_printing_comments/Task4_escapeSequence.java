@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class task4_escapeSequence {
+public class Task4_escapeSequence {
 
 	public static void main(String[] args) {
 		

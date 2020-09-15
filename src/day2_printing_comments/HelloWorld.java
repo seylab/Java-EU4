@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class helloWorld {
+public class HelloWorld {
 	
 	
 

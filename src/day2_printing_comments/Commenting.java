@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class commenting {
+public class Commenting {
 
 	public static void main(String[] args) { 
 		

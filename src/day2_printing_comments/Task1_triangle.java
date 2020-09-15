@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class task1_triangle {
+public class Task1_triangle {
 
 	public static void main(String[] args) {
 		

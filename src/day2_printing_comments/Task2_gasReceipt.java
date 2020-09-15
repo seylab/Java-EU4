@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class task2_gasReceipt {
+public class Task2_gasReceipt {
 
 	public static void main(String[] args) {
 		

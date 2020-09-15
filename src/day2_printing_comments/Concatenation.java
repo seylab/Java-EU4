@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class concatenation {
+public class Concatenation {
 
 	public static void main(String[] args) {
 		

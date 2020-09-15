@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class printlnVSprint {
+public class PrintlnVSprint {
 
 	public static void main(String[] args) {
 		System.out.print("one ");

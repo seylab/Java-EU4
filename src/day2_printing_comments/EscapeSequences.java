@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class escapeSequences {
+public class EscapeSequences {
 
 	public static void main(String[] args) {
 		

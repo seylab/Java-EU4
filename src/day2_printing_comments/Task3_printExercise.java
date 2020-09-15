@@ -1,6 +1,6 @@
 package day2_printing_comments;
 
-public class task3_printExercise {
+public class Task3_printExercise {
 
 	public static void main(String[] args) {
 		
