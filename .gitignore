@@ -1,8 +1,9 @@
-/*.iml
-/.idea/
-/out/
+/bin/
 /*.project
 /.settings
-/target/
-/bin/
 /.classpath
+.DS_Store
+*.iml
+/.idea/
+/target/
+/out/
