@@ -1,6 +1,6 @@
 package day4_arithmeticOperators;
 
-public class task15_mileConverter {
+public class Task15_MileConverter {
 
 	public static void main(String[] args) {
 		

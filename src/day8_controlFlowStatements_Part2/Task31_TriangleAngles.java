@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task31_TriangleAngles {
+public class Task31_TriangleAngles {
 
 	public static void main(String[] args) {
 		

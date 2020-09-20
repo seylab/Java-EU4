@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task36_Calculator {
+public class Task36_Calculator {
 
 	public static void main(String[] args) {
 		

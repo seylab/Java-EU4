@@ -1,6 +1,6 @@
 package day7_controlFlowStatements;
 
-public class task25_GreatestNumber {
+public class Task25_GreatestNumber {
 
 	public static void main(String[] args) {
 		

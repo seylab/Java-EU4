@@ -1,6 +1,6 @@
 package day7_controlFlowStatements;
 
-public class task24_EligibleToVote {
+public class Task24_EligibleToVote {
 
 	public static void main(String[] args) {
 		

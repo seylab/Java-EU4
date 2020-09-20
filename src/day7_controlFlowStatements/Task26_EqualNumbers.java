@@ -1,6 +1,6 @@
 package day7_controlFlowStatements;
 
-public class task26_EqualNumbers {
+public class Task26_EqualNumbers {
 
 	public static void main(String[] args) {
 		

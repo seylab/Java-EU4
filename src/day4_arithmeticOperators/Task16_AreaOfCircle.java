@@ -1,6 +1,6 @@
 package day4_arithmeticOperators;
 
-public class task16_areaOfCircle {
+public class Task16_AreaOfCircle {
 
 	public static void main(String[] args) {
 		

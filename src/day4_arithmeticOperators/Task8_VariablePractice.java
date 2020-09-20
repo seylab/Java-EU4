@@ -1,6 +1,6 @@
 package day4_arithmeticOperators;
 
-public class task8_variablePractice {
+public class Task8_VariablePractice {
 
 	public static void main(String[] args) {
 		

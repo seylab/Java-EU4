@@ -1,6 +1,6 @@
 package day4_arithmeticOperators;
 
-public class task14_convertFahrenheitToCelcius {
+public class Task14_ConvertFahrenheitToCelcius {
 
 	public static void main(String[] args) {
 		

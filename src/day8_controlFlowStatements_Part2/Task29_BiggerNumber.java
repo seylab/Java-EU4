@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task29_BiggerNumber {
+public class Task29_BiggerNumber {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package day5_unary_assignment_relational_Operators;
 
-public class task21_incrementDecrement {
+public class Task21_IncrementDecrement {
 
 	public static void main(String[] args) {
 		

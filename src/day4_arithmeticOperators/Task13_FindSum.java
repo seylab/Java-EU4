@@ -1,6 +1,6 @@
 package day4_arithmeticOperators;
 
-public class task13_findSum {
+public class Task13_FindSum {
 
 	public static void main(String[] args) {
 		

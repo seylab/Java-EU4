@@ -1,6 +1,6 @@
 package day6_logicalOperators;
 
-public class task23_operators {
+public class Task23_Operators {
 
 	public static void main(String[] args) {
 		

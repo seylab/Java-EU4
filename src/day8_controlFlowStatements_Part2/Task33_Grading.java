@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task33_Grading {
+public class Task33_Grading {
 
 	public static void main(String[] args) {
 		

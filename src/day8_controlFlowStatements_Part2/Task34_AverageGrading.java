@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task34_AverageGrading {
+public class Task34_AverageGrading {
 
 	public static void main(String[] args) {
 		

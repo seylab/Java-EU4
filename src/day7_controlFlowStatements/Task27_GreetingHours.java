@@ -1,6 +1,6 @@
 package day7_controlFlowStatements;
 
-public class task27_GreetingHours {
+public class Task27_GreetingHours {
 
 	public static void main(String[] args) {
 		

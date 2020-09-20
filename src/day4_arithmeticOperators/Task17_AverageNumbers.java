@@ -1,6 +1,6 @@
 package day4_arithmeticOperators;
 
-public class task17_averageNumbers {
+public class Task17_AverageNumbers {
 
 	public static void main(String[] args) {
 		

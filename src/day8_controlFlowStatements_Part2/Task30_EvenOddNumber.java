@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task30_EvenOddNumber {
+public class Task30_EvenOddNumber {
 
 	public static void main(String[] args) {
 		

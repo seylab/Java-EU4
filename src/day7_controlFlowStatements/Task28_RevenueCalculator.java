@@ -1,6 +1,6 @@
 package day7_controlFlowStatements;
 
-public class task28_RevenueCalculator {
+public class Task28_RevenueCalculator {
 
 	public static void main(String[] args) {
 		

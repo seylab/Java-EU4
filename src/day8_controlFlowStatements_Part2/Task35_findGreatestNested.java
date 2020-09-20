@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task35_findGreatestNested {
+public class Task35_findGreatestNested {
 
 	public static void main(String[] args) {
 		

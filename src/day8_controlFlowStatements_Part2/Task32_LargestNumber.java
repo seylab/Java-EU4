@@ -1,6 +1,6 @@
 package day8_controlFlowStatements_Part2;
 
-public class task32_LargestNumber {
+public class Task32_LargestNumber {
 
 	public static void main(String[] args) {
 			
