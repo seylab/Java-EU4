@@ -1,6 +1,5 @@
 package day6_logical_operators;
 
-import javax.sound.midi.Soundbank;
 
 public class OperatorPrecedence {
 
