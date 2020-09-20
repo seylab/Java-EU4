@@ -1,4 +1,4 @@
-package day3_variables_dataTypes;
+package day03_variables_dataTypes;
 
 public class PrimitiveVariables {
 

@@ -1,4 +1,4 @@
-package day2_printing_comments;
+package day02_printing_comments;
 
 public class Concatenation {
 
