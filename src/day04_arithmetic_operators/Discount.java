@@ -5,7 +5,7 @@ public class Discount {
 	public static void main(String[] args) {
 		
 		//This program calculates the sale price of an
-		//item that is regulary priced at $59, with a 20% Discount on it 
+		//item that is regular priced at $59, with a 20% Discount on it 
 		
 		int regularPrice=59;
 		double discount;

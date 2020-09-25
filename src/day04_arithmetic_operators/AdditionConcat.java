@@ -11,10 +11,10 @@ public class AdditionConcat {
 			//Number+String : Concatenation
 			System.out.println(5 + "hello");
 			
-			//String+Boolean : Concetenation
+			//String+Boolean : Concatenation
 			System.out.println("hello" + true);
 			
-			//String+String : Concetenation
+			//String+String : Concatenation
 			System.out.println("hello" + "world");
 			
 			//Boolean+Number
