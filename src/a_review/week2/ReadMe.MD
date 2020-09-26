@@ -86,8 +86,10 @@ if( store has the milk){
 
     if(store has 2% milk){
         //go here and buy it 
+    }else{
+        // buy regular milk
     }
-    // buy it anyway
+    
 }else{
     // go to some other store
 }
