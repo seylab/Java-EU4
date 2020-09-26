@@ -1,10 +1,10 @@
 package a_review.week2;
 
-public class ArithmaticOperators {
+public class ArithmeticOperators {
 
 	public static void main(String[] args) {
 		
-		//Arithmatic Operator
+		//Arithmetic Operator
 		//+ , - , * , / , %
 		System.out.println( 9 + 5  );
 		System.out.println( 9 - 5  );
