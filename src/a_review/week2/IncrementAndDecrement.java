@@ -41,7 +41,13 @@ public class IncrementAndDecrement {
 		appleCount =  --appleCount ;   // appleCount = 5 ; 
 		
 		System.out.println( appleCount);
+		System.out.println( appleCount);
 		
+		// currently there is 5 apple 
+		int newCNT = --appleCount ; 
+		System.out.println( appleCount );
+		System.out.println( newCNT );
+
 		// ++ -- will be heavily used when we come to the topic of Loops in Java -- stay tuned
 		
 		
