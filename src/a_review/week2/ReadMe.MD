@@ -1,22 +1,51 @@
 # Week 2 : 
 
 ## Operators : 
-* Arithmetic Operator 
+* ### Arithmetic Operator 
   * `+ , - , * , / , %`
-* Unary Operators 
+* ### Unary Operators 
   * `+` , `-`
   * `++` , `--`
   * `!`
-* Assignment Operators 
+* ### Assignment Operators 
   * `=` 
   * `+=`, `-=`, `*=`, `\=`, `%=`
-* Relational Operators  
+* ### Relational Operators  
   * `==` , `!=`
   * `>=` ,  `<=` ,  `>` ,  `<` 
-* Logical Operators 
+* ### Logical Operators 
   * `&&` , `&`
   * `||` , `|`
   * `^` 
+
+Logical AND `&&` and `&` 
+| Expression 1   | Expression 2 |  Result |
+|---             |    ---       |   ---   |
+|  true |  true  | true  |
+|  true |  false | false  |
+|  false |  true | false  |
+|  false |  false| false  |
+
+---
+Logical OR `||` and `|` 
+| Expression 1   | Expression 2 |  Result |
+|---             |    ---       |   ---   |
+|  true |  true  | true  |
+|  true |  false | true  |
+|  false |  true | true  |
+|  false |  false| false |
+
+---
+Logical exclusive OR `^` 
+| Expression 1   | Expression 2 |  Result |
+|---             |    ---       |   ---   |
+|  true |  true  | false  |
+|  true |  false | true  |
+|  false |  true | true  |
+|  false |  false| false |
+
+---
+
 
 ## Type Casting
     Conversion of the data types 
@@ -24,8 +53,8 @@
     or 
     From smaller data type to larger data type --> widening 
 
- - Implicit casting : this happen automatically by compiler 
- - Explicit casting : this is done by the programmer 
+ - **Implicit casting** : this happen automatically by compiler 
+ - **Explicit casting** : this is done by the programmer 
    - >There could be loss of data. 
   
 For example : 
