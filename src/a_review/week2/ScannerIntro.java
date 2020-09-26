@@ -1,6 +1,6 @@
 package a_review.week2;
 
-import java.util.Scanner ; 
+import java.util.Scanner;
 
 public class ScannerIntro {
 
@@ -14,7 +14,7 @@ public class ScannerIntro {
 		Scanner scan = new Scanner(System.in); 
 	
 		System.out.println("ENTER SCORE : ");
-		int score = scan.nextInt() ; // 87 ; 
+		int score = scan.nextInt() ; // This will wait for user to enter number and assign that number to score ; 
 		
 		
 		if (score > 70) {
