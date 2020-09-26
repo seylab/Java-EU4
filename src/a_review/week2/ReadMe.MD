@@ -1,7 +1,7 @@
 # Week 2 : 
 
 ## Operators : 
-* Arithmatic Operator 
+* Arithmetic Operator 
   * `+ , - , * , / , %`
 * Unary Operators 
   * `+` , `-`
