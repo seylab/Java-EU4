@@ -10,8 +10,8 @@ public class AppleDivision {
 		int pplCount = 5 ; 
 		
 		// generate result as 
-		// each person will get <count> 
-		// and <..> apple will remain 
+		// each person will get apple :   number here
+		// remaining apple count is   :   number here
 		
 		System.out.println("each person will get apple :  "  +  appleCount / pplCount  ); 
 		System.out.println("remaining apple count is   :  "  +  appleCount % pplCount );
