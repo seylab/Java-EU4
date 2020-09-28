@@ -290,13 +290,13 @@ int distance ;
 distance = 123123123 ;  
 
 long distanceBetween2Planet ; 
-distanceBetween2Planet = 123487537456 ;
+distanceBetween2Planet = 123487537456L ;
 
 float price ; 
-price = 1.99 ; 
+price = 1.99f ; 
 
 double pi ;
-pi = 3.14897987897 ; 
+pi = 3.14897987897d ; 
 
 char firstLetter ; 
 firstLetter = 'K' ; 
@@ -318,8 +318,8 @@ byte num1 = 123;
 short = 12398; 
 int distance = 123123123 ;  
 long distanceBetween2Planet = 123487537456 ;
-float price = 1.99 ; 
-double pi = 3.14897987897 ; 
+float price = 1.99f ; 
+double pi = 3.14897987897d ; 
 char firstLetter = 'K' ; 
 boolean lightOn = false ;  
 
