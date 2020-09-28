@@ -317,7 +317,7 @@ You may declare and initialize Variables at the same time.
 byte num1 = 123; 
 short = 12398; 
 int distance = 123123123 ;  
-long distanceBetween2Planet = 123487537456 ;
+long distanceBetween2Planet = 123487537456L ;
 float price = 1.99f ; 
 double pi = 3.14897987897d ; 
 char firstLetter = 'K' ; 
