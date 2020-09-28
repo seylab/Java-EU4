@@ -240,7 +240,7 @@ In any case ,
     >number can be anywhere after first character
 4. **Only 2 special characters are allowed** 
    1. underscore `_`
-   2. dollar sing `$`
+   2. dollar sign `$`
 
 ### Naming Convention 
 These are not rules but commonly accepted criteria to follow. 
