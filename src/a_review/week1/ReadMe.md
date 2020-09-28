@@ -309,7 +309,7 @@ String name ;
 name = "Europe Batch 4" ; 
 ```
 
-### Initilizing the Variable 
+### Declaring and Initilizing the Variable
 
 You may declare and initialize Variables at the same time. 
 
