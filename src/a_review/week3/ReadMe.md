@@ -1,8 +1,25 @@
-# Week 3 Note 
+**Week 3 Note** 
+1. [Conditional Statements](#conditional-statements)
+	1. [if statement](#if-statement)
+	2. [if else statement](#if-else-statement)
+	3. [if else if ..else statement](#if-else-if-else-statement)
+	4. [nested if ( if statement inside anotehr if statement)](#nested-if--if-statement-inside-anotehr-if-statement)
+	5. [`switch` statement](#switch-statement)
+	6. [Ternary operator (conditional assignment)](#ternary-operator-conditional-assignment)
+2. [Creating Interactive Program](#creating-interactive-program)
+	1. [Scanner Class](#scanner-class)
+	2. [Importing Scanner](#importing-scanner)
+	3. [Creating Scanner Object](#creating-scanner-object)
+	4. [Using existing methods from Scanner Class](#using-existing-methods-from-scanner-class)
+	5. [Common Scanner methods](#common-scanner-methods)
+	6. [Common Erros:](#common-erros)
+		1. [Data type mismatch :](#data-type-mismatch-)
+		2. [Errors while mixing `nextLine()` and `nextX()` methods](#errors-while-mixing-nextline-and-nextx-methods)
+		3. [How do we get consistent result if we have to mix it like this?](#how-do-we-get-consistent-result-if-we-have-to-mix-it-like-this)
 
-## Conditional Statements
+# Conditional Statements
 
-* if statement
+ ## if statement
   ```java
    int num 75;
    
@@ -11,7 +28,7 @@
    }
   ```
 
-* if else statement 
+## if else statement 
   ```java
    int num 75;
    
@@ -21,7 +38,7 @@
 	   System.out.println("Failed");
    }
   ```
-* if else if ..else statement
+## if else if ..else statement
    ```java
 	int score = 56 ; 
 		
@@ -37,7 +54,7 @@
 		System.out.println("Failed");
 	}
 	```
-* nested if ( if statement inside anotehr if statement)
+## nested if ( if statement inside anotehr if statement)
 	```java
 	int price = 34;
 	boolean primeMember = false;
@@ -54,7 +71,7 @@
 	}
 	```
 
-* `switch` statement
+## `switch` statement
    
    When you have a variable and you want to check several different possible values and take action accordingly , switch statement can be used. 
    >You can do everything switch can do using if else if else, other way is not true since switch only check for equality. 
@@ -116,36 +133,36 @@
   ```
 
 
-* **Ternary operator** (conditional assignment)
+## Ternary operator (conditional assignment)
 	
-	Ternary operator is used to simplify conditional assignment for if else statement. 
+Ternary operator is used to simplify conditional assignment for if else statement. 
 
-	Here is the simple if else example 
-	```java
-	String result = ""; 
-	int score = 70
-	if(score>60){
-		result = "Pass" ;
-	}else{
-		result = "Fail" ;
-	}
-	``` 
-	This code can be one liner using ternary operator as below. 
-	```java
-	String result = (score>60) ? "Pass" : "Fail" ; 
-	```
-	**NEAT!!!** 
+Here is the simple if else example 
+```java
+String result = ""; 
+int score = 70
+if(score>60){
+	result = "Pass" ;
+}else{
+	result = "Fail" ;
+}
+``` 
+This code can be one liner using ternary operator as below. 
+```java
+String result = (score>60) ? "Pass" : "Fail" ; 
+```
+**NEAT!!!** 
 
-	Syntax : 
-	```
-	DataType variableName = (condition here ) ? IfTrueAssignThis : IfFalseAssignThis ;  
-	``` 
+Syntax : 
+```
+DataType variableName = (condition here ) ? IfTrueAssignThis : IfFalseAssignThis ;  
+``` 
 
 
 
 ----
 
-## Creating Interactive Program
+# Creating Interactive Program
 
 We have been creating a variable and assiging value directly in our source code. 
 
@@ -331,7 +348,7 @@ A
 // It will be stored as String : "value here"
 ```
 
-## Errors while mixing `nextLine()` and `nextX()` methods
+### Errors while mixing `nextLine()` and `nextX()` methods
 >There is no `nextX` method , I will be using it just to refer all Scanner methods : `nextInt()`, `nextDouble()` , `nextBoolean()` and anything other than  `nextLine()`. 
 
 If you remember for `nextLine()` method, the only way to know if user done typing is by `Enter` key(⏎).  And all `nextX()` methods only capture the actual input and will not capture `Enter` key(⏎). check below example. 
