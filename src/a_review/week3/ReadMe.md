@@ -446,9 +446,9 @@ Write a program to ask user to enter age and print you are eligible to vote if a
 
 ## Task 2 : 
 Write a program to ask user to enter name of our school and `print Correct` if user entered `Cybertek` else `print incorrect.
->Checking primitive types equality , `==` always return consisten result. 
+>Checking primitive types equality , `==` always return consistent result. 
 
->String is not primitive and equality check is little bit more complicated than primitives, in order to get cosnsiten result, always use `equals` method, we will explain why when we learn String clas deeper.
+>`String is not primitive and equality check is little bit more complicated than primitives`, `in order to get consistent result`, always use `equals` method, we will explain why when we learn String class deeper.
 
 For example : 
 ```java
