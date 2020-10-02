@@ -1,5 +1,150 @@
 # Week 3 Note 
 
+## Conditional Statements
+
+* if statement
+  ```java
+   int num 75;
+   
+   if(num>60){
+	   System.out.println("Passed");
+   }
+  ```
+
+* if else statement
+  ```java
+   int num 75;
+   
+   if(num>60){
+	   System.out.println("Passed");
+   }else{
+	   System.out.println("Failed");
+   }
+  ```
+* if else if ..else statement
+   ```java
+	int score = 56 ; 
+		
+	if( score>100 || score < 0 ) {	
+		System.out.println("INVALID NUMBER!!!!");
+	}else if( score>=90 ) { 
+		System.out.println("A");		
+	}else if ( score>=80 ) {
+		System.out.println("B");
+	}else if ( score>=70  ) {
+		System.out.println("C");		
+	}else {
+		System.out.println("Failed");
+	}
+	```
+* nested if ( if statement inside anotehr if statement)
+	```java
+	int price = 34;
+	boolean primeMember = false;
+
+	if(! primeMember ) {
+
+		if(price>30){
+			System.out.println("Free Shipping");	
+		}else{
+			System.out.println("5$ Shipping!!");	
+		}
+	}else{		
+		System.out.println("Free Shipping");
+	}
+	```
+
+* `switch` statement
+   
+   When you have a variable and you want to check several different possible values and take action accordingly , switch statement can be used. 
+   >You can do everything switch can do using if else if else, other way is not true since switch only check for equality. 
+   
+   For example :
+   ```java 
+   int choice = 1;
+   
+   switch(choice) {
+
+	case 1 :
+		System.out.println("You have selected Option 1 ");
+		break ;
+	case 2 :
+		System.out.println("You have selected Option 2 ");
+		break ;
+	case 3 :
+		System.out.println("You have selected Option 3 ");
+		break ;
+	case 4 :
+		System.out.println("You have selected Option 3 ");
+		break ;
+	  default:
+		System.out.println("You did not select any of 1,2,3,4 ");
+		System.out.println("this is like else section of if else");
+		break; //optional here
+   }
+
+> ONLY VARIABLE TYPES SUPPORTED BY `switch(variable)` are :
+	
+ **`byte`, `short`, `char`, and `int` primitive data types** and **`String`** (Later Enum and Wrapper classes)
+
+   Variable with any other data type **WILL NOT COMPILE**
+
+ Another Example :
+
+  ```java 
+	String season = "summer";
+	switch(choice) {
+
+		case "spring" :
+			System.out.println("Spring is here!!!");
+			break ;
+		case "summer" :
+			System.out.println("Summer!! go swimming!!!");
+			break ;
+		case "fall" :
+			System.out.println("Spring go hiking!!");
+			break ;
+		case "winter" :
+			System.out.println("Go Skiing!!");
+			break ;
+		default:
+			System.out.println("NOT A VALID SEASON!!");
+			System.out.println("this is like else section of if else");
+			break; //optional here
+   }
+
+  ```
+
+
+* **Ternary operator** (conditional assignment)
+	
+	Ternary operator is used to simplify conditional assignment for if else statement. 
+
+	Here is the simple if else example 
+	```java
+	String result = ""; 
+	int score = 70
+	if(score>60){
+		result = "Pass" ;
+	}else{
+		result = "Fail" ;
+	}
+	``` 
+	This code can be one liner using ternary operator as below. 
+	```java
+	String result = (score>60) ? "Pass" : "Fail" ; 
+	```
+	**NEAT!!!** 
+
+	Syntax : 
+	```
+	DataType variableName = (condition here ) ? IfTrueAssignThis : IfFalseAssignThis ;  
+	``` 
+
+
+
+----
+
 ## Creating Interactive Program
 
 We have been creating a variable and assiging value directly in our source code. 
