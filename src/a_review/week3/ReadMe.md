@@ -92,7 +92,7 @@ public class ScannerPractice {
 		
 		System.out.println("Please enter your age : ");	
 		int age = scan.nextInt(); 
-		System.out.println("You have entered  age : " + age);
+		System.out.println("You have entered  age : " + age); 
 		
 		System.out.println("You study full time , true or false ?");	
 		boolean isFullTime = scan.nextBoolean(); 
