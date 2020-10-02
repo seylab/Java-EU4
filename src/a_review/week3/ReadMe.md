@@ -206,6 +206,7 @@ First program run :
 User input the age and hot `Enter` key(⏎) to try to type full name. 
 
 ![No Chance to Type (1)](https://user-images.githubusercontent.com/59104509/94958429-81ec2900-04bd-11eb-98df-4ba97e8fde42.gif)
+
 Unexpectedly the program finished running before user even have a chance to enter something in console. 
 
 The reason is when you enter number it's captured by `nextInt()` and when you hit enter `nextLine()` method assume you are done typing and capture that and save into `fullName` variable as illustrated in the picture.
