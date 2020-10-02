@@ -16,6 +16,9 @@
 		1. [Data type mismatch :](#data-type-mismatch-)
 		2. [Errors while mixing `nextLine()` and `nextX()` methods](#errors-while-mixing-nextline-and-nextx-methods)
 		3. [How do we get consistent result if we have to mix it like this?](#how-do-we-get-consistent-result-if-we-have-to-mix-it-like-this)
+	7. [Using Scanner with Conditional Statements](#using-scanner-with-conditional-statements)
+		1. [Task 1 :](#task-1-)
+		2. [Task 2 :](#task-2-)
 
 # Conditional Statements
 
@@ -435,3 +438,34 @@ Here is the full program
 
 ![NextLineWorked](https://user-images.githubusercontent.com/59104509/94958223-2883fa00-04bd-11eb-85df-e2fd29b6d0cc.png)
 
+
+## Using Scanner with Conditional Statements 
+
+### Task 1 : 
+Write a program to ask user to enter age and print you are eligible to vote if age is more than or qual to 18 and print you are not eligible for vote if less than 18. 
+
+### Task 2 : 
+Write a program to ask user to enter name of our school and `print Correct` if user entered `Cybertek` else `print incorrect.
+>Checking primitive types equality , `==` always return consisten result. 
+
+>String is not primitive and equality check is little bit more complicated than primitives, in order to get cosnsiten result, always use `equals` method, we will explain why when we learn String clas deeper.
+
+For example : 
+```java
+String str1 = "Apple";
+String str2 = "Apple";
+System.out.println( str1 == str2)  );      // true
+System.out.println( str1.equals(str2)  );  // true
+```
+
+With Scanner :rotating_light:
+```java
+Scanner scan = new Scanner(System.in); 
+String str1 = scan.next();
+String str2 = scan.next();
+System.out.println( str1 == str2)  );      
+// false??!! OMG WHY ?  for now just think of 2 person with same name are not same person. 
+System.out.println( str1.equals(str2)  );  // true
+
+````
+ **Bottom line : ALWAYS USE `.equals` for String equality check NOT `==`**
