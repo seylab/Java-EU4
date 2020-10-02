@@ -404,7 +404,7 @@ Same program , 2 different result according to the way we run due to the nature 
 
 ## How do we get consistent result if we have to mix it like this? 
 
-Well first , **`if you do not have to use `nextLine()` just stick to `next()` method to avoid issues.`**
+Well first , **if you do not have to use `nextLine()` just stick to `next()` method to avoid issues.**
 
 If you really have to use it though, just add extra `scan.next()` every time you use `nextLine()` right after `nextX()` method to capture that `Enter` key(⏎).
 
