@@ -171,5 +171,103 @@ If user enter `abc` instead of a valid number the output is as below:
 
 Because `int num = "abc";` is not a valid statement. 
 
+Same apply for other issues like entering fractional number for `nextInt()` method or entering anything not `true` or `false` for `nextBoolean()` method. 
 
+You may however enter anything for `next()` or `nextLine()` methods because anything can be stored as `String`.
+
+For example :
+```java
+String s1 = scan.next() ;
+// all below values will be valid as user input.
+123 
+true
+12.99
+A
+// It will be stored as String : "value here"
+```
+
+## Errors while mixing `nextLine()` and `nextX()` methods
+>There is no `nextX` method , I will be using it just to refer all Scanner methods : `nextInt()` ``nextDouble()` , `nextBoolean()` and anything other than  `nextLine()`. 
+
+If you remember for `nextLine()` method, the only way to know if user done typing is by `Enter` key(⏎).  And all `nextX()` methods only capture the actual input and will not capture `Enter` key(⏎). check below example. 
+
+```java
+Scanner scan = new Scanner(System.in); 
+
+System.out.println("Enter your age : ");
+int age = scan.nextInt();
+System.out.println("You have entered " + age);
+
+System.out.println("Enter full name : ");
+String fullName = scan.nextLine();
+System.out.println("You have entered full name : "+ fullName);
+```
+First program run : 
+User input the age and hot `Enter` key(⏎) to try to type full name. 
+
+![No Chance to Type (1)](https://user-images.githubusercontent.com/59104509/94958429-81ec2900-04bd-11eb-98df-4ba97e8fde42.gif)
+Unexpectedly the program finished running before user even have a chance to enter something in console. 
+
+The reason is when you enter number it's captured by `nextInt()` and when you hit enter `nextLine()` method assume you are done typing and capture that and save into `fullName` variable as illustrated in the picture.
+
+![TheNextLineIssue](https://user-images.githubusercontent.com/59104509/94956184-bbbb3080-04b9-11eb-9b51-c5e8ccfaabd5.png)
+
+However that was not what we intended. 
+Second Program run :
+User input the age and hit `space` key  to try to type full name. 
+![Same line worked)](https://user-images.githubusercontent.com/59104509/94958604-d0012c80-04bd-11eb-938d-536184f6ffe1.gif)
+
+
+The Program executed as expected because 
+`nextInt()` captured `21` and `space` indicate that 
+you are done and it will continue.
+
+You typed `Adam Jones` after the `space` and hit `enter`. 
+
+`nextLine()` method start capturing right after space until you hit enter , 
+
+In this case : `Adam Jones`
+And **it worked! as illustrated below.**
+
+![NextLineWorked](https://user-images.githubusercontent.com/59104509/94957108-38024380-04bb-11eb-9aaf-bea5828c94f1.png)
+
+
+Same program , 2 different result according to the way we run due to the nature of `nextLine()` method use `Enter` key as end of input. 
+
+### How do we get consistent result if we have to mix it like this? 
+
+Well first , if you do not have to use `nextLine()` just stick to `next()` method to avoid issues. 
+
+If you really have to use it though, just add extra `scan.next()` every time you use `nextLine()` right after `nextX()` method to capture that `Enter` key(⏎).
+
+For example : 
+```java
+Scanner scan = new Scanner(System.in); 
+
+System.out.println("Enter your age : ");
+int age = scan.nextInt();  // capture age
+System.out.println("You have entered " + age);
+
+// adding extra scan.nextLine() just to capture Enter key
+scan.nextLine() ;
+
+System.out.println("Enter full name : ");
+String fullName = scan.nextLine(); // capture full name
+System.out.println("You have entered full name : "+ fullName);
+```
+Now with this code , we will not have to worry about the `Enter` Key accidentally captured by `scan.nextLine()` that supposed to capture full name. 
+
+![Expected Result](https://user-images.githubusercontent.com/59104509/94958768-18204f00-04be-11eb-8bc1-4268a1b7afb5.gif)
+
+
+
+Bottom line is : Whenever you have to mix `nextInt` or other similar method with `nextLine` , always follow below pattern : 
+```java
+int num = scan.nextInt() ; // capture number 
+scan.nextLine();  //capture Enter key , do not need to save it.
+String sentence = scan.nextLine() ; // capture one or more words
+```
+Here is the full program
+
+![NextLineWorked](https://user-images.githubusercontent.com/59104509/94958223-2883fa00-04bd-11eb-85df-e2fd29b6d0cc.png)
 
