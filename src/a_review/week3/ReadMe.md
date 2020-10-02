@@ -61,6 +61,37 @@ boolean num1 = scan.nextBoolean();
 ```
 When user enter the input , it can be separated by `space` or `enter` keystroke to distinguish one input from another. 
 
+Here is a sample program to ask user 3 numbers and print sum
+
+```java
+package capturing_user_input;
+import java.util.Scanner ; 
+
+public class SumCalculator {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in) ;  
+		
+		int num1, num2, num3 , sum ; 
+		
+		System.out.println("Enter 3 numbers");
+		num1 = scan.nextInt();
+		num2 = scan.nextInt();
+		num3 = scan.nextInt();
+		
+		sum = num1+num2+num3 ; 
+		
+		System.out.println("Sum of 3 numbers is : " + sum );	
+	}
+}
+
+```
+Here is the sample input and output for running the program 2 times.
+
+![2020-10-02_12-55-33 (1)](https://user-images.githubusercontent.com/59104509/94949361-cc19de00-04ae-11eb-9f29-74fd9027f58a.gif)
+
+
 > Fact : There is no `nextChar()` method to capture single character. 
 
 If we need to capture more than one word , like sentences we can use `nextLine()` method
