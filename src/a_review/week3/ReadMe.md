@@ -187,7 +187,7 @@ A
 ```
 
 ## Errors while mixing `nextLine()` and `nextX()` methods
->There is no `nextX` method , I will be using it just to refer all Scanner methods : `nextInt()` ``nextDouble()` , `nextBoolean()` and anything other than  `nextLine()`. 
+>There is no `nextX` method , I will be using it just to refer all Scanner methods : `nextInt()`, `nextDouble()` , `nextBoolean()` and anything other than  `nextLine()`. 
 
 If you remember for `nextLine()` method, the only way to know if user done typing is by `Enter` key(⏎).  And all `nextX()` methods only capture the actual input and will not capture `Enter` key(⏎). check below example. 
 
