@@ -1,9 +1,10 @@
 **Week 3 Note** 
+---
 1. [Conditional Statements](#conditional-statements)
 	1. [if statement](#if-statement)
 	2. [if else statement](#if-else-statement)
 	3. [if else if ..else statement](#if-else-if-else-statement)
-	4. [nested if ( if statement inside anotehr if statement)](#nested-if--if-statement-inside-anotehr-if-statement)
+	4. [nested if ( if statement inside another if statement)](#nested-if--if-statement-inside-another-if-statement)
 	5. [`switch` statement](#switch-statement)
 	6. [Ternary operator (conditional assignment)](#ternary-operator-conditional-assignment)
 2. [Creating Interactive Program](#creating-interactive-program)
@@ -57,7 +58,7 @@ if( score>100 || score < 0 ) {
 	System.out.println("Failed");
 }
 ```
-## nested if ( if statement inside anotehr if statement)
+## nested if ( if statement inside another if statement)
 ```java
 int price = 34;
 boolean primeMember = false;
