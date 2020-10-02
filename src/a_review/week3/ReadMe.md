@@ -16,7 +16,7 @@
 	6. [Common Erros:](#common-erros)
 		1. [Data type mismatch :](#data-type-mismatch-)
 		2. [Errors while mixing `nextLine()` and `nextX()` methods](#errors-while-mixing-nextline-and-nextx-methods)
-		3. [How do we get consistent result if we have to mix it like this?](#how-do-we-get-consistent-result-if-we-have-to-mix-it-like-this)
+	7. [How do we get consistent result if we have to mix it like this?](#how-do-we-get-consistent-result-if-we-have-to-mix-it-like-this)
 3. [Using Scanner with Conditional Statements](#using-scanner-with-conditional-statements)
 	1. [Task 1 :](#task-1-)
 	2. [Task 2 :](#task-2-)
@@ -402,7 +402,7 @@ And **it worked! as illustrated below.**
 
 Same program , 2 different result according to the way we run due to the nature of `nextLine()` method use `Enter` key as end of input. 
 
-### How do we get consistent result if we have to mix it like this? 
+## How do we get consistent result if we have to mix it like this? 
 
 Well first , `**if you do not have to use `nextLine()` just stick to `next()` method to avoid issues.**`
 
