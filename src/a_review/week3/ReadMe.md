@@ -214,6 +214,7 @@ The reason is when you enter number it's captured by `nextInt()` and when you hi
 ![TheNextLineIssue](https://user-images.githubusercontent.com/59104509/94956184-bbbb3080-04b9-11eb-9b51-c5e8ccfaabd5.png)
 
 However that was not what we intended. 
+
 Second Program run :
 User input the age and hit `space` key  to try to type full name. 
 ![Same line worked)](https://user-images.githubusercontent.com/59104509/94958604-d0012c80-04bd-11eb-938d-536184f6ffe1.gif)
