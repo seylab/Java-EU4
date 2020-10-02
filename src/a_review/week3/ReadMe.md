@@ -155,6 +155,8 @@ Here is the sample input and output :
 
 
 ## Common Erros: 
+
+### Data type mismatch : 
 If user input does not match the data type user input, it will throw and error while program run. 
 
 For example : 
