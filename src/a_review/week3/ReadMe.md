@@ -107,6 +107,7 @@ public class ScannerPractice {
 
 ```
 Here is the sample input and output : 
+
 ![Console output Scanner](https://user-images.githubusercontent.com/72038048/94945905-624b0580-04a9-11eb-9ead-69ac2ba5bb0e.gif)
 
 
