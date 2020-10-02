@@ -10,7 +10,7 @@ String name = "Adam" ;
 System.out.println("You have entered "+ name); 
 // output You have entered Adam
 ```
->What if We want to make the program interactive to let user enter the name when program is running and capture that user input to assin the value ? 
+>What if We want to make the program interactive to let user enter the name when program is running and capture that user input to assign the name value ? 
 
 **That's exactly where `Scanner` class comes in.**  
 
@@ -20,7 +20,7 @@ In order to use it , we need to tell compiler exactly where is the class using `
 ```java
 import java.util.Scanner ;
 ```
-More percisely, It should be right under package declaration and before class declaration as below.
+More precisely, It should be right under package declaration and before class declaration as below.
 ```java
 package your_package_name;
 
@@ -46,7 +46,7 @@ For example, in order to capture single word and save into a variable :
 String name = scan.next(); // the program will pause here until user enter a word and hit enter. the value will be saved into variable name. we can use it anywhere just like we would do with any variables.
 System.out.println("You have entered " + name);
 ```
-We can also capture the user inputs like numebers and booleans and save into corresponding data types. 
+We can also capture the user inputs like numbers and boolean and save into corresponding data types. 
 
 Here is the list of common methods we can call : 
 ```java
