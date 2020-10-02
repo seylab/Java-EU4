@@ -154,4 +154,20 @@ Here is the sample input and output :
 ![Console output Scanner](https://user-images.githubusercontent.com/72038048/94945905-624b0580-04a9-11eb-9ead-69ac2ba5bb0e.gif)
 
 
+## Common Erros: 
+If user input does not match the data type user input, it will throw and error while program run. 
+
+For example : 
+```java
+System.out.println("Enter a number :");
+int num = scan.nextInt() ; 
+
+```
+If user enter `abc` instead of a valid number the output is as below:
+
+![Wrong Data type](https://user-images.githubusercontent.com/59104509/94951848-fff70280-04b2-11eb-80c0-a4c3226b9927.gif)
+
+Because `int num = "abc";` is not a valid statement. 
+
+
 
