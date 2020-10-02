@@ -14,8 +14,11 @@ System.out.println("You have entered "+ name);
 
 **That's exactly where `Scanner` class comes in.**  
 
+## Scanner Class
+
 `Scanner` is a class coming from **JDK** and It's under a package called `java.util` and we can use the existing functionality already provided to capture users input just like we were able to directly use `System.out.println` to print something on the console. 
 
+## Importing Scanner
 In order to use it , we need to tell compiler exactly where is the class using `import` statement.
 ```java
 import java.util.Scanner ;
@@ -31,6 +34,11 @@ public class Practice{
 }
 
 ```
+
+## Creating Scanner Object
+
+We will talk a lot more about what's class and object in later classes. right now we will just take it and use it since the line is always the same. 
+
 Once imported, We need to create `Scanner object` and assign it to variable.
 * When you create a variable with data type `int` , you can store a number
 * When you create a variable with data type `Scanner`, then you can store `Scanner object`.
@@ -39,6 +47,9 @@ This is how we create `Scanner object` and assign it to a variable with type `Sc
 ```java
 Scanner scan = new Scanner(System.in) ; 
 ```
+
+## Using existing methods from Scanner Class
+
 Now you may use the variable `scan` to call various methods (behaviour of objects) already exists to capture users input. 
 
 For example, in order to capture single word and save into a variable : 
@@ -48,6 +59,7 @@ System.out.println("You have entered " + name);
 ```
 We can also capture the user inputs like numbers and boolean and save into corresponding data types. 
 
+## Common Scanner methods
 Here is the list of common methods we can call : 
 ```java
 // assuming we already created scanner object and named it scan.
@@ -89,7 +101,7 @@ public class SumCalculator {
 ```
 Here is the sample input and output for running the program 2 times.
 
-![2020-10-02_12-55-33 (1)](https://user-images.githubusercontent.com/59104509/94949361-cc19de00-04ae-11eb-9f29-74fd9027f58a.gif)
+![Sum Calculator](https://user-images.githubusercontent.com/59104509/94949361-cc19de00-04ae-11eb-9f29-74fd9027f58a.gif)
 
 
 > Fact : There is no `nextChar()` method to capture single character. 
