@@ -7,7 +7,7 @@ markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    default_lang: csharp
+    default_lang: java
     css_class: 'highlight'
     span:
       line_numbers: false
