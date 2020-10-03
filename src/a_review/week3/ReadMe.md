@@ -25,7 +25,7 @@
 
  ## if statement
   ```java
-   int num 75;
+   int num = 75;
    
    if(num>60){
 	   System.out.println("Passed");
@@ -34,7 +34,7 @@
 
 ## if else statement 
   ```java
-   int num 75;
+   int num = 75;
    
    if(num>60){
 	   System.out.println("Passed");
