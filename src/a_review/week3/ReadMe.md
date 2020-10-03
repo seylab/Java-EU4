@@ -371,13 +371,13 @@ System.out.println("You have entered full name : "+ fullName);
 First program run : 
 User input the age and hot `Enter` key(⏎) to try to type full name. 
 
-![No Chance to Type (1)](https://user-images.githubusercontent.com/59104509/94958429-81ec2900-04bd-11eb-98df-4ba97e8fde42.gif)
+![No Chance to Type](https://user-images.githubusercontent.com/59104509/94958429-81ec2900-04bd-11eb-98df-4ba97e8fde42.gif)
 
 Unexpectedly the program finished running before user even have a chance to enter something in console. 
 
 The reason is when you enter number it's captured by `nextInt()` and when you hit enter `nextLine()` method assume you are done typing and capture that and save into `fullName` variable as illustrated in the picture.
 
-![TheNextLineIssue](https://user-images.githubusercontent.com/59104509/94956184-bbbb3080-04b9-11eb-9b51-c5e8ccfaabd5.png)
+![The Next Line Issue](https://user-images.githubusercontent.com/59104509/94956184-bbbb3080-04b9-11eb-9b51-c5e8ccfaabd5.png)
 
 However that was not what we intended. 
 
@@ -397,7 +397,7 @@ You typed `Adam Jones` after the `space` and hit `enter`.
 In this case : `Adam Jones`
 And **it worked! as illustrated below.**
 
-![NextLineWorked](https://user-images.githubusercontent.com/59104509/94957108-38024380-04bb-11eb-9aaf-bea5828c94f1.png)
+![nextLine Worked](https://user-images.githubusercontent.com/59104509/94957108-38024380-04bb-11eb-9aaf-bea5828c94f1.png)
 
 
 Same program , 2 different result according to the way we run due to the nature of `nextLine()` method use `Enter` key as end of input. 
@@ -406,7 +406,7 @@ Same program , 2 different result according to the way we run due to the nature 
 
 Well first , **if you do not have to use `nextLine()` just stick to `next()` method to avoid issues.**
 
-If you really have to use it though, just add extra `scan.next()` every time you use `nextLine()` right after `nextX()` method to capture that `Enter` key(⏎).
+If you really have to use it though, just add extra `scan.nextLine()` every time you use `nextLine()` right after `nextX()` method to capture that `Enter` key(⏎).
 
 For example : 
 ```java
