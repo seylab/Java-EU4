@@ -462,8 +462,9 @@ System.out.println( str1.equals(str2)  );  // true
 With Scanner :rotating_light:
 ```java
 Scanner scan = new Scanner(System.in); 
-String str1 = scan.next();
-String str2 = scan.next();
+String str1 = scan.next(); 
+String str2 = scan.next(); 
+// assuming user enter "Adam" for both of them
 System.out.println( str1 == str2)  );      
 // false??!! OMG WHY ?  for now just think of 2 person with same name are not same person. 
 System.out.println( str1.equals(str2)  );  // true
