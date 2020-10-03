@@ -96,7 +96,7 @@ For example :
 		System.out.println("You have selected Option 3 ");
 		break ;
 	case 4 :
-		System.out.println("You have selected Option 3 ");
+		System.out.println("You have selected Option 4 ");
 		break ;
 	default:
 		System.out.println("You did not select any of 1,2,3,4 ");
@@ -233,9 +233,9 @@ byte   num1 = scan.nextByte();
 short  num2 = scan.nextShort();
 int    num3 = scan.nextInt();
 long   num4 = scan.nextLong();
-float  num1 = scan.nextFloat();
-double num1 = scan.nextDouble();
-boolean num1 = scan.nextBoolean();
+float  num5 = scan.nextFloat();
+double num6 = scan.nextDouble();
+boolean b   = scan.nextBoolean();
 ```
 When user enter the input , it can be separated by `space` or `enter` keystroke to distinguish one input from another. 
 
