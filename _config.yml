@@ -1,4 +1,4 @@
-theme: jekyll-theme-modernist
+remote_theme: rundocs/jekyll-rtd-theme
 
 title: [Cybertek School SDET Program EU4 Batch]
 description: [This is a repository for java classes]
