@@ -54,6 +54,13 @@ public class Question11 {
 			  3 2 1 
 			    2 1 
 			      1 
+			
+			// add 0 space in 1st iteration  (4-4) * 2 
+			// add 2 space in 2nd iteration  (4-3) * 2 
+			// add 4 space in 3rd iteration  (4-2) * 2
+			// add 6 space in 4th iteration  (4-1) * 2
+			 * 
+			 * 
 		 */
 		System.out.println("--------");
 		for (int i = 4; i >= 1; i--) {
