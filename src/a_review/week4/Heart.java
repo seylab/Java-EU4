@@ -2,16 +2,16 @@ package a_review.week4;
 /**
  * 
  * Bonus code , not part of live class
- * @author Someone on the internet
+ * @author Someone on the Internet
  *
  */
 public class Heart {
 
 	public static void main(String arg[]) {
-
+// THIS IS THE HARD SHAPER WE ARE YALLOIMH ADJASKLDJSAKLJLKJDA
+		
 		// size = 10
-		int a, b, size = 15;
-
+		int a, b, size = 15; 
 		/* FOR THE APEX OF HEART */
 		for (a = size / 2; a <= size; a = a + 2) {
 
