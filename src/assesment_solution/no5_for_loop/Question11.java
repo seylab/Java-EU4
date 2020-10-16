@@ -14,129 +14,26 @@ public class Question11 {
 		 *    1
 		 * 
 		 */
-
-		for (int i = 4; i >= 1; i--) {
+		 
+		for (int start = 4; start >= 1; start--) {
 			
-			for (int j = 1; j <= 4-i; j++) {
-				System.out.print(" ");
-			}
-			
-			for (int j = i; j >= 1; j--) {
-				System.out.print(j);
-//				if (j != 1) {
-					System.out.print(" ");
-//				}
-			}
-			System.out.println();
-
-		}
-		/*
-		    4 3 2 1 
-			3 2 1 
-			2 1 
-			1 
-		 */
+			 for(int space = 0 ; space < 4-start ; space++) {
+				 System.out.print(" ");
+			 }
 		
-		System.out.println("--------");
-		for (int i = 4; i >= 1; i--) {
-
-			for (int j = i; j >= 1; j--) {
-				System.out.print(j);
-//				if (j != 1) {
-					System.out.print(" ");
-//				}
-			}
-			System.out.println();
-
-		}
-		/*
-		    4 3 2 1 
-			  3 2 1 
-			    2 1 
-			      1 
-			
-			// add 0 space in 1st iteration  (4-4) * 2 
-			// add 2 space in 2nd iteration  (4-3) * 2 
-			// add 4 space in 3rd iteration  (4-2) * 2
-			// add 6 space in 4th iteration  (4-1) * 2
-			 * 
-			 * 
-		 */
-		System.out.println("--------");
-		for (int i = 4; i >= 1; i--) {
-
-			for(int j=1 ; j<= (4-i)*2 ;j++) {
-				System.out.print(" ");
-			}
-			
-			
-			for (int j = i; j >= 1; j--) {
-				System.out.print(j);
-//				if (j != 1) {
-				System.out.print(" ");
-//				}
-			}
-			System.out.println();
-
-		}
+			 for (int i = start; i >= 1; i--) {
+				 System.out.print(i + " ");
+			 }
+			 System.out.println();
+		 
+		} 
 		
-		System.out.println("--------");
-		/*
-		    1 
-			1 2 
-			1 2 3 
-			1 2 3 4 
-		 * */
 		
-		for (int i = 1; i <= 4; i++) {
 		
-			for (int j = 1; j <= i; j++) {
-				System.out.print(j + " ");
-			}
-			System.out.println();
-		}
 		
-		System.out.println("----------");
-		/*
-		 *     
-		       1 
-			  1 2 
-			 1 2 3 
-			1 2 3 4 
-		 * */
-		for (int i = 1; i <= 4; i++) {
-			
-			for (int j = 4-i; j >= 1; j--) {
-				System.out.print(" ");
-			}
-			
-			for (int j = 1; j <= i; j++) {
-				System.out.print(j + " ");
-			}
-			System.out.println();
-		}
 		
-		System.out.println("----------");
-		/*
-		  	  1 
-		    1 2 
-		  1 2 3 
-		1 2 3 4 
-
-		 * */
-		for (int i = 1; i <= 4; i++) {
-			
-			for (int j = 1; j <= (4-i)*2 ; j++) {
-				System.out.print(" ");
-			}
-			for (int j = 1; j <= i; j++) {
-				System.out.print(j+ " ");
-			}
-			System.out.println();
-		}
-
 		
-
+		
 	}
 
 }
