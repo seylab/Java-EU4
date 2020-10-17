@@ -21,8 +21,17 @@ public class CallingAMethodInsideAnotherMethod {
 //		wakeUp();
 		
 		prepareTheKids();
-		
-		
+		/*
+		 * output :
+		 *  Prepare the kids method start
+			make a turkish tea or coffee
+			cereal , egg , milk , toast
+			feed the kids with love , and nice food
+			pop up in the car, drive to school , dropoff
+			Prepare the kids method end
+		 * */
+		System.out.println("-------------");
+		workAndLearn();
 		
 	}
 	 
@@ -64,6 +73,24 @@ public class CallingAMethodInsideAnotherMethod {
 		System.out.println("pop up in the car, drive to school , dropoff");
 	}
 	
+	
+// workAndLearn()
+//	  work()
+//	  attendClass()
+	public static void workAndLearn() {
+		
+		work();
+		attendClass();
+	}
+	
+	
+	public static void work() {
+		System.out.println("working as an SDET");
+	}
+	
+	public static void attendClass() {
+		System.out.println("Attending class at Cybertek");
+	}
 	
 	
 	
