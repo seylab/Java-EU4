@@ -32,13 +32,7 @@ public class MethodPractice {
 		System.out.println("Saying hello to " + name);
 		
 	}
-	
-	
-	
-	
-	
-	
-	
+
 	public static void sayHello() {
 		
 		
