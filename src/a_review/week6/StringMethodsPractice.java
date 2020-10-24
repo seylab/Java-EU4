@@ -48,8 +48,69 @@ public class StringMethodsPractice {
 											+ str2.equalsIgnoreCase("ABC")   );
 		
 		// contain :  partial check 
-		// 
-		System.out.println("Does str1 contains letter a "  +   str.contains("a")    );
+		System.out.println("Does str contains letter a : "  +   str.contains("a")    );
+		System.out.println("Does str contains letter A : "  +   str.contains("A")    );
+		// checking something contain something else in case insensitive manner 
+		System.out.println("Does str contains letter A or a case insenstive : "  
+									+   str.toUpperCase().contains("A")       );
+		
+			//       01234		 
+		String s1 = "Hello" ; 
+		    // 	     12345
+		// charAt  accept index as number return the character at that location 
+		System.out.println("first character : " +  s1.charAt(0)  );
+		// find last character : index of last character is always 1 less that character count 
+		int lastIndex = s1.length() -1 ; 
+		System.out.println("index of the last character is "  + lastIndex);
+
+		System.out.println("last character is " +  s1.charAt( lastIndex )  );
+		
+		// shortcut
+		
+		char lastChar =  s1.charAt( s1.length() -1  );
+		System.out.println("last character is " + lastChar);
+		
+		System.out.println("check whether s1 is empty " +  s1.isEmpty() );
+		
+		String s2 = "";
+		System.out.println("check whether s2 is empty " +  s2.isEmpty() );
+		
+//		String s3 = null ; 
+//		System.out.println("check whether s3 is empty " +  s3.isEmpty() );
+		
+		// indexOf 
+		//			 012345678901234
+		String s4 = "EU4 is Awesome!" ; 
+		// find the location|position|index of A
+		
+		System.out.println("Position of A is " +  s4.indexOf("A")   );
+		System.out.println("Position of A is " +  s4.indexOf('A')   );
+		// what if it does not exist 
+		System.out.println("Position of Z is "  + s4.indexOf("Z"));
+		
+		// find the location|position|index of som
+		System.out.println("Position of som is " + s4.indexOf("som")   );
+		
+		// subStr 
+		//   012345678901234	
+		//  "EU4 is Awesome!" ; 
+		
+		// substring is used to get part of the string from starting point 
+		// until right before ending point 
+		
+		System.out.println("characters between index 7 and right before index 9  | " 
+				                     +  s4.substring(7, 9)  );
+		
+		System.out.println("characters between index 1 and right before index 8  | " 
+                +  s4.substring(1, 8)  );
+		
+		
+		// substr that accept only beginning index 
+		
+		System.out.println("Get character starting from index 4 till the last one | "
+							    +   s4.substring(4)    );		
+		
+		
 		
 		
 		
