@@ -43,7 +43,7 @@ public class MethodWithReturnType {
 	
 	public static String getMyMotto() {
 		
-		return "Happy wife hapy life"; 
+		return "Happy wife happy life"; 
 		
 	}
 	
