@@ -16,12 +16,19 @@ public class MakeMiddleCapital {
 	
 	public static void main (String [] args) {
 		
-		makeMiddleCapital("");
+		String s = makeMiddleCapital("aPplE");
+		String s2 = makeMiddleCapital("banana");
+		String s3 = makeMiddleCapital("Dog");
+		
+		System.out.println(s);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(makeMiddleCapital("q"));
+		
 	}
 	
 	public static String makeMiddleCapital(String str) {
 		
-		String word = "";
 		str = str.toLowerCase();
 		
 		if(str.length() % 2 == 1) { // % 2 != 0
@@ -37,9 +44,9 @@ public class MakeMiddleCapital {
 			return front + middle + end;
 		}
 		
-		
-		
 		return "";
+		
+		
 	}
 	
 	
