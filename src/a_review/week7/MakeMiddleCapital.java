@@ -42,9 +42,17 @@ public class MakeMiddleCapital {
 			middle = middle.toUpperCase();
 			
 			return front + middle + end;
+		} else {
+			// ba na na str.length()/2  6/2 3 -1
+			String front = str.substring(0, str.length()/2 -1);
+			String middle = str.substring(str.length()/2 -1, str.length()/2+1);
+			String end = str.substring(str.length()/2 +1);
+			middle = middle.toUpperCase();
+			
+			return front + middle + end;
 		}
 		
-		return "";
+		
 		
 		
 	}
