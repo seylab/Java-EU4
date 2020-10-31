@@ -31,7 +31,7 @@ public class ABBalanced {
 			
 			if(s.charAt(i) == 'a') {
 				
-				if(!s.substring(i).contains("b")) {
+				if(!s.substring(i).contains("b")) {  // "axxb"
 					return "not balanced";
 				}
 				
