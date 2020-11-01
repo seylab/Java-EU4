@@ -17,8 +17,6 @@ public class Anagram {
 		System.out.println(isAnagram("abc", "cab"));
 		System.out.println(isAnagram("aaaaaa", "cab"));
 		System.out.println(isAnagram("listen", "silent"));
-
-
 		
 	}
 	
