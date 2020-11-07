@@ -13,7 +13,7 @@ public class LongestString {
 	 */
 	
 	public static void main(String[] args) {
-		String [] words = {"a", "bc", "edf", "sdnadijiods", "j", "yz"};
+		String [] words = {"a", "bc", "edf", "sdnadijiods", "jfdwe", "yzrewr"};
 		System.out.println(findLongestString(words));
 	}
 	
