@@ -46,4 +46,32 @@ public class AddNumbersFromStringList {
 		return sums;
 	}
 	
+	// If the Strings could have other characters besides numbers
+	
+	public static ArrayList<Integer> sumOfEachString2(ArrayList<String> nums) {
+		
+		ArrayList<Integer> sums = new ArrayList<>();
+		
+		for(int i=0; i < nums.size(); i++) {
+			
+			int sum = 0;
+			
+			for(int j = 0; j < nums.get(i).length(); j++) {
+				
+				if(!Character.isDigit(nums.get(i).charAt(j))) {
+					continue;
+				}
+				
+				sum += Integer.parseInt(nums.get(i).substring(j, j+1));
+				// sum += Integer.parseInt("" + nums.get(i).charAt(j));
+				
+			}
+			
+			sums.add(sum);
+			
+		}
+		
+		return sums;
+	}
+	
 }
