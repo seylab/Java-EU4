@@ -1,5 +1,7 @@
 package a_review.week12;
 
+import java.text.DecimalFormat;
+
 public class Circle {
 
     public final static double PI = 3.14;
@@ -12,22 +14,22 @@ public class Circle {
         perimeter = calculatePerimeter();
     }
 
-
-    public double calculateArea(){
+    private double calculateArea(){  // for internal use only
         return radius * radius * PI;
     }
 
-    public double calculatePerimeter(){
+    private double calculatePerimeter(){ // for internal use only
         return diameter * PI;
     }
 
 
     public String toString() {
+        DecimalFormat df =new DecimalFormat("0.00");
         return "Circle{" +
                 "radius=" + radius +
                 ", diameter=" + diameter +
-                ", area=" + area +
-                ", perimeter=" + perimeter +
+                ", area=" + df.format(area )+
+                ", perimeter=" + df.format(perimeter) +
                 '}';
     }
 
