@@ -5,7 +5,7 @@ public class Circle {
     public final static double PI = 3.14;
     private double radius, diameter, area, perimeter;
 
-    public Circle(double radius){
+    public Circle(double radius){  // for one time setting only for each object
         this.radius =radius;
         diameter =  radius * 2;
         area = calculateArea();
