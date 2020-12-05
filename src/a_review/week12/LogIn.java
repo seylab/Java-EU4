@@ -19,6 +19,8 @@ public class LogIn {
         System.out.println("Password entered: "+ obj1.passWord); // not visible
      */
 
+        System.out.println("Username entered: "+ obj1.getUserName());
+        System.out.println("Password entered: "+ obj1.getPassWord());
 
 
 
