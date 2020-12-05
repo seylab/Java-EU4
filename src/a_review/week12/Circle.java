@@ -2,7 +2,6 @@ package a_review.week12;
 
 public class Circle {
 
-
     public final static double PI = 3.14;
     private double radius, diameter, area, perimeter;
 
@@ -48,6 +47,8 @@ public class Circle {
     public double getPerimeter() {
         return perimeter;
     }
+
+
 
 }
 
