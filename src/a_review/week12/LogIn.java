@@ -7,6 +7,7 @@ public class LogIn {
         // System.out.println(Credentials.userName);
         Credentials obj1 = new Credentials();
 
+
         /*
         System.out.println("Username entered: "+ obj1.userName); // not visible
         System.out.println("Password entered: "+ obj1.passWord); // not visible
@@ -17,10 +18,30 @@ public class LogIn {
 
         System.out.println("Username entered: "+ obj1.userName); // not visible
         System.out.println("Password entered: "+ obj1.passWord); // not visible
-     */
+    */
+
+
+
 
         System.out.println("Username entered: "+ obj1.getUserName());
         System.out.println("Password entered: "+ obj1.getPassWord());
+
+        System.out.println("==============================================");
+        /*
+        cybertekSchool
+        cyber456
+         */
+
+        obj1.setUserName("cybertekSchool");
+        obj1.setPassWord("cyber456");
+
+        System.out.println("Username entered: "+ obj1.getUserName());
+        System.out.println("Password entered: "+ obj1.getPassWord());
+
+
+
+
+
 
 
 

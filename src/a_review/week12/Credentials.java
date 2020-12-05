@@ -20,6 +20,15 @@ public class Credentials {
                return passWord;
         }
 
+        public void setUserName(String userName){
+                this.userName = userName;  // this. only used it to call the instance when local variable is sharing the same name with instance
+        }
+
+        public void setPassWord(String passWord){
+                this.passWord = passWord;
+        }
+
+
 
 
 
